@@ -12,7 +12,13 @@ public class NewClass {
     public int a;
     public String b ;
     NewClass() {
-        a = 0;
-        b = null;
+        this.a = 0;
+        this.b = null;
     }
+    NewClass(int a,String b) {
+        this.a = a;
+        this.b = b;
+    }
+    
+    
 }
